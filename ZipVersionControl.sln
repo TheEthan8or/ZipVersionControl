@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27406.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZipVersionControl", "ZipVersionControl\ZipVersionControl.csproj", "{06B42597-EEEA-4EAA-B059-5B9014A15D66}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZipVersionControlLib", "ZipVersionControlLib\ZipVersionControlLib.csproj", "{4976BC09-F39F-4A3E-A167-4C38344AF1F6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{06B42597-EEEA-4EAA-B059-5B9014A15D66}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06B42597-EEEA-4EAA-B059-5B9014A15D66}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06B42597-EEEA-4EAA-B059-5B9014A15D66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4976BC09-F39F-4A3E-A167-4C38344AF1F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4976BC09-F39F-4A3E-A167-4C38344AF1F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4976BC09-F39F-4A3E-A167-4C38344AF1F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4976BC09-F39F-4A3E-A167-4C38344AF1F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

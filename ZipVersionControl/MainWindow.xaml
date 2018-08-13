@@ -5,8 +5,27 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ZipVersionControl"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+        Title="ZipVersionControl" Height="114" Width="300" ResizeMode="CanMinimize" SizeToContent="WidthAndHeight" WindowStartupLocation="CenterScreen">
+    <Grid Margin="0">
+        <Grid Margin="0,18,10,10">
+            <ComboBox x:Name="cbxProfileSelector" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="274" ItemsSource="{Binding}" SelectedIndex="0" SelectionChanged="cbxProfileSelector_SelectionChanged">
+                <ComboBox.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding ProfileName}"/>
+                    </DataTemplate>
+                </ComboBox.ItemTemplate>
+            </ComboBox>
+            <ComboBox x:Name="cbxSync" HorizontalAlignment="Left" Margin="10,37,0,0" Grid.Row="1" VerticalAlignment="Top" Width="91" Height="20" BorderBrush="#FF707070" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="#FFDDDDDD" IsEnabled="False" SelectionChanged="cbxSync_SelectionChanged">
+                <ComboBoxItem Content="Commit" Selected="ComboBoxItem_Selected"/>
+            </ComboBox>
+            <Button x:Name="btnSync" Content="Sync" HorizontalAlignment="Left" Margin="10,37,0,0" VerticalAlignment="Top" Width="75" IsDefault="True" Click="Button_Click" IsEnabled="False"/>
+            <Button x:Name="btnSettings" Content="Settings" HorizontalAlignment="Left" Margin="209,37,0,0" VerticalAlignment="Top" Width="75" IsEnabled="False" Click="btnSettings_Click"/>
+        </Grid>
+        <Menu HorizontalAlignment="Left" Height="18" VerticalAlignment="Top" Width="294">
+            <MenuItem Header="File">
+                <MenuItem Header="New profile..." Click="MenuItem_Click"/>
+                <MenuItem Header="Options..." Click="MenuItem_Click_1"/>
+            </MenuItem>
+        </Menu>
     </Grid>
 </Window>
