@@ -1,0 +1,127 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.0/",
+    "signature": "8649ef22d69cb82480b6da7649974c30517f8f44"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.0": {},
+    ".NETStandard,Version=v2.0/": {
+      "ZipVersionControlLib/1.0.0": {
+        "dependencies": {
+          "LibGit2Sharp": "0.26.0-preview-0027",
+          "NETStandard.Library": "2.0.3",
+          "WindowsBase": "4.0.0.0"
+        },
+        "runtime": {
+          "ZipVersionControlLib.dll": {}
+        }
+      },
+      "LibGit2Sharp/0.26.0-preview-0027": {
+        "dependencies": {
+          "LibGit2Sharp.NativeBinaries": "1.0.226"
+        },
+        "runtime": {
+          "lib/netstandard2.0/LibGit2Sharp.dll": {
+            "assemblyVersion": "0.26.0.0",
+            "fileVersion": "0.26.0.27"
+          }
+        }
+      },
+      "LibGit2Sharp.NativeBinaries/1.0.226": {},
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "NETStandard.Library/2.0.3": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "WindowsBase/4.0.0.0": {
+        "runtime": {
+          "WindowsBase.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.6.1055.0"
+          }
+        }
+      },
+      "System.Xaml/4.0.0.0": {
+        "runtime": {
+          "System.Xaml.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.6.1055.0"
+          }
+        }
+      },
+      "Accessibility/4.0.0.0": {
+        "runtime": {
+          "Accessibility.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.6.1055.0"
+          }
+        }
+      },
+      "System.Security/4.0.0.0": {
+        "runtime": {
+          "System.Security.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.6.1055.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ZipVersionControlLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LibGit2Sharp/0.26.0-preview-0027": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eHxLWiSHEllo/s11qsQrB3LqrZai/HyBaiIuE+dTYFw7ruKEJWOudvSDR5uKgvyO4HJ0QpLjvqtM62WZraMlWw==",
+      "path": "libgit2sharp/0.26.0-preview-0027",
+      "hashPath": "libgit2sharp.0.26.0-preview-0027.nupkg.sha512"
+    },
+    "LibGit2Sharp.NativeBinaries/1.0.226": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Y2Wwiq2WjpvPgD1LsaPZbQfQn1LV+NZHgEW3HPmmRgGBz4v2kQgt7jt8m1sH3Leh6lMX8CqOR01bf2xWGC5Izw==",
+      "path": "libgit2sharp.nativebinaries/1.0.226",
+      "hashPath": "libgit2sharp.nativebinaries.1.0.226.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "path": "netstandard.library/2.0.3",
+      "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "WindowsBase/4.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Xaml/4.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Accessibility/4.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Security/4.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
