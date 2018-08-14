@@ -28,7 +28,11 @@
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
     <InstallUrl>https://raw.githubusercontent.com/TheEthan8or/ZipVersionControl/master/ZipVersionControl/publish/</InstallUrl>
-    <ApplicationRevision>3</ApplicationRevision>
+    <SupportUrl>https://github.com/TheEthan8or/ZipVersionControl</SupportUrl>
+    <ErrorReportUrl>https://github.com/TheEthan8or/ZipVersionControl/issues</ErrorReportUrl>
+    <ProductName>ZipVersionControl</ProductName>
+    <PublisherName>TheEthan8or</PublisherName>
+    <ApplicationRevision>4</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
