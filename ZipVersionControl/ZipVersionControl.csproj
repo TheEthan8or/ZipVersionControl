@@ -32,7 +32,7 @@
     <ErrorReportUrl>https://github.com/TheEthan8or/ZipVersionControl/issues</ErrorReportUrl>
     <ProductName>ZipVersionControl</ProductName>
     <PublisherName>TheEthan8or</PublisherName>
-    <ApplicationRevision>10</ApplicationRevision>
+    <ApplicationRevision>11</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -233,7 +233,7 @@
       <IncludeHash>True</IncludeHash>
       <FileType>Assembly</FileType>
     </PublishFile>
-    <PublishFile Include="System.Diagnostics.TraceSource">
+    <PublishFile Include="System.Diagnostics.StackTrace">
       <Visible>False</Visible>
       <Group>
       </Group>
