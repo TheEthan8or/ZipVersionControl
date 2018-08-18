@@ -32,7 +32,7 @@
     <ErrorReportUrl>https://github.com/TheEthan8or/ZipVersionControl/issues</ErrorReportUrl>
     <ProductName>ZipVersionControl</ProductName>
     <PublisherName>TheEthan8or</PublisherName>
-    <ApplicationRevision>5</ApplicationRevision>
+    <ApplicationRevision>6</ApplicationRevision>
     <ApplicationVersion>1.0.1.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -294,6 +294,16 @@
       <FileType>Assembly</FileType>
     </PublishFile>
     <PublishFile Include="System.Net.Sockets">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="System.Runtime.InteropServices.RuntimeInformation">
       <Visible>False</Visible>
       <Group>
       </Group>
