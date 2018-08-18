@@ -58,7 +58,15 @@ namespace ZipVersionControl
                 return;
             }
 
-            Session.CommitCurrentProfile();
+            try
+            {
+                Session.CommitCurrentProfile();
+            }
+            catch (Exception ex)
+            {
+                e.Result = ex;
+                return;
+            }
         }
 
         private void bw_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
@@ -128,7 +136,15 @@ namespace ZipVersionControl
 
             // Commit changes and make contents of zip file same as contents of repository
             bw.ReportProgress(0, workerResult);
-            Session.CommitCurrentProfile();
+            try
+            {
+                Session.CommitCurrentProfile();
+            }
+            catch (Exception ex)
+            {
+                e.Result = ex;
+                return;
+            }
 
             // Pull git repository and save changes to zip file
             bw.ReportProgress(1, workerResult);
