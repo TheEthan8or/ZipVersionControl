@@ -81,7 +81,7 @@ namespace ZipVersionControl
             }
             else
             {
-                MessageBox.Show("Unknown error: " + (e.Result as Exception).Message, "ZipVersionControl", MessageBoxButton.OK, MessageBoxImage.Warning);
+                MessageBox.Show("Unknown error: " + (e.Result as Exception).Message + "\r\n" + (e.Result as Exception).StackTrace, "ZipVersionControl", MessageBoxButton.OK, MessageBoxImage.Warning);
             }
             Close();
         }
