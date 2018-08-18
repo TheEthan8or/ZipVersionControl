@@ -312,9 +312,9 @@ namespace ZipVersionControl
                 UnzipZipFile(Path.Combine(Path.GetTempPath(), "ZipVersionControl\\" + Path.GetFileNameWithoutExtension(Preferences.Profiles[SelectedProfileIndex].ZipFilePath)));
                 using (ZipArchive zipArchive = ZipFile.Open(Path.Combine(Path.GetTempPath(), "ZipVersionControl\\" + Path.GetFileName(Preferences.Profiles[SelectedProfileIndex].ZipFilePath)), ZipArchiveMode.Create))
                 {
-                    foreach (string f in DirSearch(Preferences.Profiles[SelectedProfileIndex].RepositoryPath))
+                    foreach (string f in DirSearch(Path.Combine(Path.GetTempPath(), "ZipVersionControl\\" + Path.GetFileNameWithoutExtension(Preferences.Profiles[SelectedProfileIndex].ZipFilePath))))
                     {
-                        zipArchive.CreateEntryFromFile(f, f.Replace(Preferences.Profiles[SelectedProfileIndex].RepositoryPath + @"\", "")); // Compress each file to zip file in Temp directory
+                        zipArchive.CreateEntryFromFile(f, f.Replace(Path.Combine(Path.GetTempPath(), "ZipVersionControl\\" + Path.GetFileNameWithoutExtension(Preferences.Profiles[SelectedProfileIndex].ZipFilePath)) + @"\", "")); // Compress each file to zip file in Temp directory
                     }
                 }
                 // Hash files

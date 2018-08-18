@@ -84,7 +84,7 @@ namespace ZipVersionControl
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
             // Save profile settings
-            Preferences.Profiles.Add(new Profile() { ProfileName = txtProfileName.Text, ZipFilePath = txtZipFile.Text, RepositoryPath = txtGitRepository.Text, Username = "", Password = ProtectedData.Protect(Encoding.Unicode.GetBytes(""), null, DataProtectionScope.CurrentUser), ZipFileHash = ProtectedData.Protect(Encoding.Unicode.GetBytes(""), null, DataProtectionScope.CurrentUser) });
+            Preferences.Profiles.Add(new Profile() { ProfileName = txtProfileName.Text, ZipFilePath = txtZipFile.Text, RepositoryPath = txtGitRepository.Text, Username = "", Password = Encoding.Unicode.GetBytes(""), ZipFileHash = Encoding.Unicode.GetBytes("") });
             Preferences.Profiles.Sort(delegate (Profile p1, Profile p2) { return p1.ProfileName.CompareTo(p2.ProfileName); });
             Preferences.Save();
             Session.SelectedProfileIndex = Preferences.Profiles.FindIndex(profile => profile.ProfileName.Equals(txtProfileName.Text, StringComparison.Ordinal));
