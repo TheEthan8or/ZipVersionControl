@@ -139,11 +139,11 @@ namespace ZipVersionControl
             }
             if (txtGitRepository.Text != "")
             {
-                if (Directory.Exists(System.IO.Path.Combine(txtGitRepository.Text, ".git")))
+                if (Directory.Exists(Path.Combine(txtGitRepository.Text, ".git")))
                 {
                     try
                     {
-                        new Repository(txtGitRepository.Text);
+                        //new Repository(txtGitRepository.Text);
                     }
                     catch (RepositoryNotFoundException)
                     {
