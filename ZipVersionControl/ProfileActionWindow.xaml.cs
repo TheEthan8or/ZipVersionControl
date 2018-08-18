@@ -120,6 +120,11 @@ namespace ZipVersionControl
                 e.Result = ex;
                 return;
             }
+            catch (Exception ex)
+            {
+                e.Result = ex;
+                return;
+            }
 
             // Commit changes and make contents of zip file same as contents of repository
             bw.ReportProgress(0, workerResult);
