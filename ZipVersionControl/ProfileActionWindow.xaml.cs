@@ -162,6 +162,11 @@ namespace ZipVersionControl
                 e.Result = ex;
                 return;
             }
+            catch (Exception ex)
+            {
+                e.Result = ex;
+                return;
+            }
 
             // Push repository
             bw.ReportProgress(2, workerResult);
