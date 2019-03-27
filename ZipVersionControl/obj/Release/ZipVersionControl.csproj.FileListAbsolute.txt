@@ -290,3 +290,4 @@ C:\Users\ethan\OneDrive\Source\Repos\ZipVersionControl\ZipVersionControl\obj\Rel
 C:\Users\ethan\OneDrive\Source\Repos\ZipVersionControl\ZipVersionControl\obj\Release\ZipVersionControl.csproj.CopyComplete
 C:\Users\ethan\OneDrive\Source\Repos\ZipVersionControl\ZipVersionControl\obj\Release\ZipVersionControl.exe
 C:\Users\ethan\OneDrive\Source\Repos\ZipVersionControl\ZipVersionControl\obj\Release\ZipVersionControl.pdb
+Z:\Repos\ZipVersionControl\ZipVersionControl\obj\Release\ZipVersionControl.exe

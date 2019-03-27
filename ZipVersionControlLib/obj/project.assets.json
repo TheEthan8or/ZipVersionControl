@@ -282,11 +282,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ethan\\OneDrive\\Source\\Repos\\ZipVersionControl\\ZipVersionControlLib\\ZipVersionControlLib.csproj",
+      "projectUniqueName": "Z:\\Repos\\ZipVersionControl\\ZipVersionControlLib\\ZipVersionControlLib.csproj",
       "projectName": "ZipVersionControlLib",
-      "projectPath": "C:\\Users\\ethan\\OneDrive\\Source\\Repos\\ZipVersionControl\\ZipVersionControlLib\\ZipVersionControlLib.csproj",
+      "projectPath": "Z:\\Repos\\ZipVersionControl\\ZipVersionControlLib\\ZipVersionControlLib.csproj",
       "packagesPath": "C:\\Users\\ethan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ethan\\OneDrive\\Source\\Repos\\ZipVersionControl\\ZipVersionControlLib\\obj\\",
+      "outputPath": "Z:\\Repos\\ZipVersionControl\\ZipVersionControlLib\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

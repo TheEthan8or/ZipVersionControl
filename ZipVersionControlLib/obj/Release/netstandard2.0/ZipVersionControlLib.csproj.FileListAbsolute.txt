@@ -25,3 +25,12 @@ C:\Users\ethan\OneDrive\Source\Repos\ZipVersionControl\ZipVersionControlLib\obj\
 C:\Users\ethan\OneDrive\Source\Repos\ZipVersionControl\ZipVersionControlLib\obj\Release\netstandard2.0\ZipVersionControlLib.AssemblyInfo.cs
 C:\Users\ethan\OneDrive\Source\Repos\ZipVersionControl\ZipVersionControlLib\obj\Release\netstandard2.0\ZipVersionControlLib.dll
 C:\Users\ethan\OneDrive\Source\Repos\ZipVersionControl\ZipVersionControlLib\obj\Release\netstandard2.0\ZipVersionControlLib.pdb
+Z:\Repos\ZipVersionControl\ZipVersionControlLib\bin\Release\netstandard2.0\ZipVersionControlLib.deps.json
+Z:\Repos\ZipVersionControl\ZipVersionControlLib\bin\Release\netstandard2.0\ZipVersionControlLib.dll
+Z:\Repos\ZipVersionControl\ZipVersionControlLib\bin\Release\netstandard2.0\ZipVersionControlLib.pdb
+Z:\Repos\ZipVersionControl\ZipVersionControlLib\obj\Release\netstandard2.0\ZipVersionControlLib.csproj.CoreCompileInputs.cache
+Z:\Repos\ZipVersionControl\ZipVersionControlLib\obj\Release\netstandard2.0\ZipVersionControlLib.AssemblyInfoInputs.cache
+Z:\Repos\ZipVersionControl\ZipVersionControlLib\obj\Release\netstandard2.0\ZipVersionControlLib.AssemblyInfo.cs
+Z:\Repos\ZipVersionControl\ZipVersionControlLib\obj\Release\netstandard2.0\ZipVersionControlLib.dll
+Z:\Repos\ZipVersionControl\ZipVersionControlLib\obj\Release\netstandard2.0\ZipVersionControlLib.pdb
+Z:\Repos\ZipVersionControl\ZipVersionControlLib\obj\Release\netstandard2.0\ZipVersionControlLib.csprojAssemblyReference.cache

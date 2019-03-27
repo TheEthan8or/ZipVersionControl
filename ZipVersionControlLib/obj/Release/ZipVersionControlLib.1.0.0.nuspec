@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>ZipVersionControlLib</id>
+    <version>1.0.0</version>
+    <authors>ZipVersionControlLib</authors>
+    <owners>ZipVersionControlLib</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Libraries for ZipVersionControl, an application that allow git syncronization of a zip file.</description>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="LibGit2Sharp" version="0.26.0-preview-0027" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="Z:\Repos\ZipVersionControl\ZipVersionControlLib\bin\Release\netstandard2.0\ZipVersionControlLib.dll" target="lib\netstandard2.0\ZipVersionControlLib.dll" />
+  </files>
+</package>
