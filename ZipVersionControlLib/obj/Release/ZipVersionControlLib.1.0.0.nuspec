@@ -14,6 +14,6 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="Z:\Repos\ZipVersionControl\ZipVersionControlLib\bin\Release\netstandard2.0\ZipVersionControlLib.dll" target="lib\netstandard2.0\ZipVersionControlLib.dll" />
+    <file src="Z:\OneDrive - Cole Valley Christian Schools\source\repos\ZipVersionControl\ZipVersionControlLib\bin\Release\netstandard2.0\ZipVersionControlLib.dll" target="lib\netstandard2.0\ZipVersionControlLib.dll" />
   </files>
 </package>

@@ -282,11 +282,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "Z:\\Repos\\ZipVersionControl\\ZipVersionControlLib\\ZipVersionControlLib.csproj",
+      "projectUniqueName": "Z:\\OneDrive - Cole Valley Christian Schools\\source\\repos\\ZipVersionControl\\ZipVersionControlLib\\ZipVersionControlLib.csproj",
       "projectName": "ZipVersionControlLib",
-      "projectPath": "Z:\\Repos\\ZipVersionControl\\ZipVersionControlLib\\ZipVersionControlLib.csproj",
+      "projectPath": "Z:\\OneDrive - Cole Valley Christian Schools\\source\\repos\\ZipVersionControl\\ZipVersionControlLib\\ZipVersionControlLib.csproj",
       "packagesPath": "C:\\Users\\ethan\\.nuget\\packages\\",
-      "outputPath": "Z:\\Repos\\ZipVersionControl\\ZipVersionControlLib\\obj\\",
+      "outputPath": "Z:\\OneDrive - Cole Valley Christian Schools\\source\\repos\\ZipVersionControl\\ZipVersionControlLib\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

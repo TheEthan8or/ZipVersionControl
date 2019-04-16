@@ -8,6 +8,8 @@
     <Description>Libraries for ZipVersionControl, an application that allow git syncronization of a zip file.</Description>
     <Company>TE8R Apps</Company>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyOriginatorKeyFile>ZipVersionControlLib.pfx</AssemblyOriginatorKeyFile>
   </PropertyGroup>
 
   <ItemGroup>

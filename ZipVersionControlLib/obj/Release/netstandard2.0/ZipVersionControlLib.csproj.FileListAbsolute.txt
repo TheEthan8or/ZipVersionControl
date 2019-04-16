@@ -34,3 +34,12 @@ Z:\Repos\ZipVersionControl\ZipVersionControlLib\obj\Release\netstandard2.0\ZipVe
 Z:\Repos\ZipVersionControl\ZipVersionControlLib\obj\Release\netstandard2.0\ZipVersionControlLib.dll
 Z:\Repos\ZipVersionControl\ZipVersionControlLib\obj\Release\netstandard2.0\ZipVersionControlLib.pdb
 Z:\Repos\ZipVersionControl\ZipVersionControlLib\obj\Release\netstandard2.0\ZipVersionControlLib.csprojAssemblyReference.cache
+Z:\OneDrive - Cole Valley Christian Schools\source\repos\ZipVersionControl\ZipVersionControlLib\bin\Release\netstandard2.0\ZipVersionControlLib.deps.json
+Z:\OneDrive - Cole Valley Christian Schools\source\repos\ZipVersionControl\ZipVersionControlLib\bin\Release\netstandard2.0\ZipVersionControlLib.dll
+Z:\OneDrive - Cole Valley Christian Schools\source\repos\ZipVersionControl\ZipVersionControlLib\bin\Release\netstandard2.0\ZipVersionControlLib.pdb
+Z:\OneDrive - Cole Valley Christian Schools\source\repos\ZipVersionControl\ZipVersionControlLib\obj\Release\netstandard2.0\ZipVersionControlLib.csprojAssemblyReference.cache
+Z:\OneDrive - Cole Valley Christian Schools\source\repos\ZipVersionControl\ZipVersionControlLib\obj\Release\netstandard2.0\ZipVersionControlLib.csproj.CoreCompileInputs.cache
+Z:\OneDrive - Cole Valley Christian Schools\source\repos\ZipVersionControl\ZipVersionControlLib\obj\Release\netstandard2.0\ZipVersionControlLib.AssemblyInfoInputs.cache
+Z:\OneDrive - Cole Valley Christian Schools\source\repos\ZipVersionControl\ZipVersionControlLib\obj\Release\netstandard2.0\ZipVersionControlLib.AssemblyInfo.cs
+Z:\OneDrive - Cole Valley Christian Schools\source\repos\ZipVersionControl\ZipVersionControlLib\obj\Release\netstandard2.0\ZipVersionControlLib.dll
+Z:\OneDrive - Cole Valley Christian Schools\source\repos\ZipVersionControl\ZipVersionControlLib\obj\Release\netstandard2.0\ZipVersionControlLib.pdb
